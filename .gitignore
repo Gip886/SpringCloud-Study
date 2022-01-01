@@ -9,3 +9,4 @@
 *.iml
 /WEB-INF/
 **/target
+.gitinore
