@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+# Eureka配置
+eureka:
+  client:
+    register-with-eureka: false # 不向 Eureka注册自己
+    service-url: # 从三个注册中心中随机取一个去访问
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+# 开启降级feign.hystrix
+feign:
+  hystrix:
+    enabled: true

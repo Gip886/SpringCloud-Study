@@ -1,0 +1,11 @@
+*/target
+/shelf/
+/workspace.xml
+/dataSources.local.xml
+/httpRequests/
+/.idea/
+/target/
+.idea
+*.iml
+/WEB-INF/
+**/target
